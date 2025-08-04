@@ -1,0 +1,100 @@
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: rgb(255, 255, 255);
+    padding: 1px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    margin: 20px;
+    padding: 0 30px;
+}
+
+.text {
+    font-size: 60px;
+    font-weight: 700;
+    width: 500px;
+    text-align: center;
+}
+
+.black {
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.b {
+    color: yellow;
+    font-size: 60px;
+}
+
+.logo {
+    color: black;
+    font-size: 30px;
+}
+
+.small {
+    font-size: large;
+}
+
+.qwerty {
+    font-size: 60px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.flexbox {
+    font-size: 30px;
+    height: 70px;
+}
+
+.korobka {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.height {
+    height: 130px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.around {
+    justify-content: space-around;
+}
